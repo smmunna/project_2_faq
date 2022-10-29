@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function Toogle(props) {
     const {id,ques,ans} = props;
@@ -7,6 +7,7 @@ function Toogle(props) {
         <div className="card">
             <h4>{id}. {ques}</h4>
             <p>{ans}</p>
+            <button>+</button>
         </div>
     </div>
   )
